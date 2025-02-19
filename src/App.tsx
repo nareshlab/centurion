@@ -159,7 +159,7 @@ function App() {
           <h3 className="text-4xl font-bold mb-8 text-gradient">REGISTER NOW</h3>
           <div className="glass-effect p-8 rounded-2xl inline-block hover-3d">
             <img 
-              src="https://github.com/nareshlab/centurion/blob/main/bit.ly_3ZUYkgC.jpeg" 
+              src="https://github.com/nareshlab/centurion/blob/main/bit.ly_3ZUYkgC.svg" 
               alt="Registration QR Code"
               className="w-48 h-48 mx-auto animate-glow"
             />
