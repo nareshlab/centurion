@@ -157,6 +157,11 @@ function App() {
       <div className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-xl mx-auto">
           <h3 className="text-4xl font-bold mb-8 text-gradient">REGISTER NOW</h3>
+          <img 
+              src="src/bit.ly_3ZUYkgC.jpeg" 
+              alt="Registration QR Code"
+              className="w-48 h-48 mx-auto animate-glow"
+            />
           <div className="glass-effect p-8 rounded-2xl inline-block hover-3d">
             <img 
               src="src/bit.ly_3ZUYkgC.jpeg" 
