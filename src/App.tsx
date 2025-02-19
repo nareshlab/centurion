@@ -11,10 +11,7 @@ function App() {
             <Brain className="w-8 h-8 text-yellow-400 animate-float" />
             <span className="text-xl font-bold">BigBucks Innovation</span>
           </div>
-          <div className="flex items-center gap-6">
-            <img src="https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=800&auto=format&fit=crop&q=80" alt="DPIIT Logo" className="h-12 w-12 object-contain hover-3d" />
-            <img src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=800&auto=format&fit=crop&q=80" alt="AICTE Logo" className="h-12 w-12 object-contain hover-3d" />
-          </div>
+          
         </div>
       </header>
 
