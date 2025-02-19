@@ -157,12 +157,24 @@ function App() {
       <div className="container mx-auto px-4 py-16 text-center">
         <div className="max-w-xl mx-auto">
           <h3 className="text-4xl font-bold mb-8 text-gradient">REGISTER NOW</h3>
-          <div className="glass-effect p-8 rounded-2xl inline-block hover-3d">
-            <img 
-              src="src/bit.ly_3ZUYkgC.png" 
-              alt="Registration QR Code"
-              className="w-48 h-48 mx-auto animate-glow"
-            />
+          <div className="space-y-8">
+            <div className="glass-effect p-8 rounded-2xl inline-block hover-3d">
+              <img 
+                src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://bit.ly/3ZUYkgC&color=255-193-7&bgcolor=0-0-0" 
+                alt="Registration QR Code"
+                className="w-48 h-48 mx-auto animate-glow"
+              />
+            </div>
+            <div>
+              <a 
+                href="https://bit.ly/3ZUYkgC" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-block px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full text-black font-bold text-lg hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-yellow-400/50"
+              >
+                Register Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
